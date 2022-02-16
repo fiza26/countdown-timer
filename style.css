@@ -1,0 +1,35 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+body {
+	background-image: url(forest.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	font-family: "Poppins", sans-serif;
+	min-height: 100vh;
+}
+.container {
+	width: 400px;
+	margin: auto;
+	margin-top: 10rem;
+}
+.container h1 {
+	font-size: 3em;
+}
+.countdown {
+	display: flex;
+	justify-content: center;
+	text-align: center;
+}
+.countdown .number {
+	display: flex;
+	flex-direction: column;
+	margin-top: 2rem;
+	margin-right: 15px;
+	margin-left: 15px;
+}
+.countdown .font {
+	font-size: 40px;
+}
